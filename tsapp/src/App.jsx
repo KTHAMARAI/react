@@ -2,8 +2,8 @@ import { useState } from "react";
 import Home from "./New.jsx";
 import ListUser from './ListUser.jsx';
 import { Routes, Route } from 'react-router-dom'
-import About from "./pages/About.jsx"
-import Contact from "./pages/Contact.jsx"
+import About from "./About.jsx"
+import Contact from "./Contact.jsx"
 function App() {
   let [user, setUser] = useState({ name: "Suresh", username: "Tharunkumar" })
   let [userList, setUserList] = useState([]);
