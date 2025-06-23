@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Home from "./New";
+import Home from "./New.jsx";
 import ListUser from './ListUser.jsx';
 import { Routes, Route } from 'react-router-dom'
 import About from "./pages/About.jsx"
