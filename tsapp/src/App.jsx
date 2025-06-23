@@ -5,12 +5,12 @@ import { Routes, Route } from 'react-router-dom'
 import About from "./About.jsx"
 import Contact from "./Contact.jsx"
 function App() {
-  let [user, setUser] = useState({ name: "Suresh", username: "Tharunkumar" })
+  let [user, setUser] = useState({ name: "Suresh", username: "TSK" })
   let [userList, setUserList] = useState([]);
   let [user1, setUser1] = useState({ name: '', email: '', work: '', priority: '' });
   return (
     <>
-      <Home name="Tharunkumar" usernmae="Suresh5" />
+      <Home name="TSK" usernmae="Suresh5" />
       <form onSubmit={(e) => {
         e.preventDefault()
         setUserList([...userList, { ...user }]);// ...(triple dots) are used to avoid the recent updated data to all 
